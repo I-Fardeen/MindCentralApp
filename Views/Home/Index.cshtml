@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .jumbotron {
+        background-color: white;
+        text-align: center;
+        white-space:normal;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Mind Central</h1>
+    
+</div>
+<div class="jumbotron">
+    <h2>
+        Jokes which make you laugh hysterically!
+    </h2>
+    <br />
+    <br />
+    <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-controller="Jokes" asp-action="Index">Laugh it Off!</a>
+    <div class="jumbotron">
+        <h2>
+            Riddles which Boggle your mind!
+        </h2>
+        <br />
+        <br />
+        <a class="btn btn-primary btn-lg active" role="button" aria-pressed="true" asp-controller="Riddles" asp-action="Index">Get Smart!</a>
+
+    </div>
+    @*<div class="carousel">
+            <img src="https://source.unsplash.com/1600x900/?questions,paper">
+        </div>*@
